@@ -7,16 +7,10 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @SpringBootApplication
-@RestController
-@RequestMapping("/a")
 public class CaptchaApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(CaptchaApplication.class, args);
 	}
 
-	@GetMapping("/b")
-	public String test(){
-		return "git test";
-	}
 }
