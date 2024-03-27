@@ -1,3 +1,4 @@
+/*
 package com.hubu.captcha;
 
 import com.alipay.v3.ApiClient;
@@ -10,6 +11,7 @@ import lombok.SneakyThrows;
 import java.util.UUID;
 
 
+*/
 /**
  * <pre>
  *
@@ -18,7 +20,8 @@ import java.util.UUID;
  * @author GL
  * @date 2024/3/27 15:36
  * @since 1.0.0
- */
+ *//*
+
 public class Test {
     public static final String CALL_BACK_URL = "https://test.xxxxx.com/wx/alipay/callback";
     @SneakyThrows
@@ -76,3 +79,4 @@ public class Test {
         }
     }
 }
+*/
