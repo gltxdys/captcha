@@ -65,7 +65,7 @@ public class CaptchaApplication {
 
 		log.info("3---->:【支付宝】交易的参数信息是：{}，流水号是：{}", body, tradeno);
 		try {
-			JSONObject bodyJson = JSONObject.parseObject(body)
+			JSONObject bodyJson = JSONObject.parseObject(body);
 			String userId = bodyJson.getString("userId");
 			String ptype = bodyJson.getString("ptype");
 			String orderNumber = bodyJson.getString("orderNumber");
