@@ -17,6 +17,7 @@ public class CaptchaApplication {
 
 	@GetMapping("/b")
 	public String test(){
+		System.out.println("ok!");
 		return "回调！";
 	}
 
